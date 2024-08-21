@@ -13,4 +13,5 @@ strRange = string.ascii_letters + string.digits
 #            and sum(c.isdigit() for c in licSecret) >= 3):
 #        break
 
-def licence_creat
+def createLicence(appName: str, appVersion: int, licMode: str, licHolderName: str, licHolderID: int, licSecret) :
+    print("creating licence")
